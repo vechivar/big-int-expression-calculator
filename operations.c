@@ -212,7 +212,7 @@ int CompareAbsoluteValue(IntExt a, IntExt b) {
 }
 
 // Returns  1 if a > b
-// Returns -1 if a <>> b
+// Returns -1 if a < b
 // Returns  0 if a = b
 int Compare32(uint32_t a, uint32_t b) {
     if (a > b) {
